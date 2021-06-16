@@ -1,0 +1,48 @@
+body{ 
+    background: #111111; 
+    color:azure;
+    font-family: monospace;
+}
+
+#cx0 {
+    font-size: 72px;
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    width: 2000px;
+    height: 1000px;
+}
+
+ul{
+    list-style: none;
+    margin: 50px;
+}
+
+ul li{
+    font-size: 28px;
+    position: relative;
+    top: 0%;
+    transform: translate(0, +50%);
+}
+
+#link-topo{
+    text-decoration: none;
+    color: white;
+    background-color: #800000;
+    padding: 30px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    box-shadow: 3px 3px 10px #333 ;
+}
+
+#link-back{
+    text-decoration: none;
+    color: white;
+    background-color: #800000;
+    padding: 30px;
+    position: fixed;
+    right: 30px;
+    bottom: 120px;
+    box-shadow: 3px 3px 10px #333 ;
+}
